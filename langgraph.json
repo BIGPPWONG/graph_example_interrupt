@@ -1,0 +1,13 @@
+{
+  "dependencies": [
+    "./my_agent"
+  ],
+  "graphs": {
+    "agent": {
+      "path": "./my_agent/agent.py:graph",
+      "description": "A description of what the agent does"
+    }
+  },
+  "env": ".env",
+  "python_version": "3.12"
+}
